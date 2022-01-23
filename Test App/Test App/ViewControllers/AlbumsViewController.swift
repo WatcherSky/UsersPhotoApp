@@ -21,7 +21,7 @@ class AlbumsViewController: UIViewController {
         setupCollectionView()
     }
     
-    //MARK: - Functions
+    //MARK: - Methods
     private func setupCollectionView() {
         collectionView.delegate = self
         collectionView.dataSource = self

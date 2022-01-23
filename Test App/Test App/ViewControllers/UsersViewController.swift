@@ -21,7 +21,7 @@ class UsersViewController: UIViewController {
         setupTitle()
     }
     
-    //MARK: - Functions
+    //MARK: - Methods
     private func setupTitle() {
         title = "Users"
     }
