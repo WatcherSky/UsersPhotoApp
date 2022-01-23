@@ -12,7 +12,7 @@ class UsersViewController: UIViewController {
     @IBOutlet weak private var tableView: UITableView!
     private let url = "https://jsonplaceholder.typicode.com/users"
     private var users = [ResultsUsers]()
-   
+    
     //MARK: - View Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
